@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
 
   #internal network
   config.vm.network :private_network, ip: "192.168.33.20"
-  config.vm.hostname ='hostname.domain.dev'
+  config.vm.hostname ='rpgit.dev'
   config.vm.synced_folder ".", "/vagrant", :nfs => true
 
   config.vm.network :forwarded_port, guest: 80, host: 8080
