@@ -1,3 +1,4 @@
 .vagrant*
 .vagrant
 puppet/manifests/git_config.pp
+Vagrantfile
